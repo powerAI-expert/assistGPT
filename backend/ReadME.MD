@@ -1,10 +1,6 @@
-# OpenAI Assistant API Integration
+# OpenAI Express Server Integration
 
 This project is an Express.js server integrated with OpenAI's API. It includes features such as file uploading, creating and managing an OpenAI assistant, and handling chat interactions using the assistant.
-
-![alt text](./design-images/screenshot.PNG)
-
-![alt text](./design-images/chat-design.PNG)
 
 ## Introduction
 
@@ -19,37 +15,25 @@ To get started with this project, follow these steps:
    ```
    git clone https://github.com/RaheesAhmed/OpenAI-Assistant-API-with-UI.git
    ```
-cd frontend
-
-```
-npm install
-```
-
-cd backend:
-
-```
-npm install
-```
-
 
 2. Install dependencies:
-
    ```
    npm install
    ```
 
-
 Create a `.env` file in the root directory and add your OpenAI API key:
 ` OPENAI_API_KEY=your_api_key_here`
 
-2. Starting the Server
+3. Starting the Server
    Run the server using the following command:
 
-   ```
+   ````
    npm start
-   ```
-
+    ```
    This will start the server on the default port 3000 or on a port specified in the .env file.
+
+
+   ````
 
 # API Endpoints
 
